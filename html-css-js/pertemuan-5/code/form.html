@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Form</title>
+  </head>
+  <body>
+    <form action="/login" method="POST">
+      <div>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          name="username"
+          placeholder="username ..."
+        />
+      </div>
+
+      <br />
+
+      <div>
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="password ..."
+        />
+      </div>
+
+      <br />
+
+      <button type="submit">Login</button>
+      <button type="reset">Reset</button>
+
+      <br /><br />
+      <div>
+        <p>Jenis Kelamin:</p>
+        <input type="radio" id="lakilaki" name="gender" />
+        <label for="lakilaki">Laki-Laki</label>
+        <input type="radio" id="perempuan" name="gender" />
+        <label for="perempuan">Perempuan</label>
+      </div>
+
+      <br /><br />
+      <div>
+        <p>Hobi:</p>
+        <input type="checkbox" id="membaca" name="hobi" />
+        <label for="membaca">Membaca</label>
+        <input type="checkbox" id="gaming" name="hobi" />
+        <label for="gaming">Gaming</label>
+        <input type="checkbox" id="olahraga" name="hobi" />
+        <label for="olahraga">Olahraga</label>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="kategori">Kategori Buku:</label>
+        <select name="kategori" id="kategori">
+          <option value="">Pilih Kategori</option>
+          <option value="novel">Novel</option>
+          <option value="biografi">Biografi</option>
+          <option value="sains">Sains</option>
+          <option value="politik">Politik</option>
+          <option value="agama">Agama</option>
+        </select>
+      </div>
+
+      <br /><br />
+
+      <div>
+        <label for="sinopsis">Sinopsis</label> <br />
+        <textarea name="sinopsis" id="sinopsis" rows="10" cols="50"></textarea>
+      </div>
+    </form>
+  </body>
+</html>

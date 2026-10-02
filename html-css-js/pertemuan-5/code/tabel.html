@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Belajar Tabel HTML</title>
+  </head>
+  <body>
+    <table border="1" cellpadding="5" cellspacing="0">
+      <caption>
+        Daftar Stok Buku Toko Fauzidleware
+      </caption>
+
+      <!-- baris ke 1 -->
+      <thead>
+        <tr>
+          <th>No.</th>
+          <th>Judul</th>
+          <th>Stok</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <!-- baris ke 2 -->
+        <tr>
+          <td>1</td>
+          <td>Novel Koala Kumal</td>
+          <td>5</td>
+        </tr>
+
+        <!-- baris ke 3 -->
+        <tr>
+          <td>2</td>
+          <td>Novel Kambing Jantan</td>
+          <td>3</td>
+        </tr>
+      </tbody>
+
+      <tfoot>
+        <tr>
+          <th colspan="2">Total Stok</th>
+          <th>8</th>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br /><br />
+
+    <table border="1" cellpadding="5" cellspacing="0">
+      <thead>
+        <tr>
+          <th>Nama</th>
+          <th colspan="2">Kontak</th>
+        </tr>
+      </thead>
+
+      <tbody>
+        <tr>
+          <td rowspan="2">Ibnu Ahmad Fauzi</td>
+          <td>Email</td>
+          <td>ibnu7897@gmail.com</td>
+        </tr>
+
+        <tr>
+          <td>Telepon</td>
+          <td>085334001077</td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
